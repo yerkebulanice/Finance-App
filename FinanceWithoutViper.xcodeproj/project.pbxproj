@@ -7,25 +7,187 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		068BFA83DC159CE108D74D7B /* RegistrationRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148C7E391E3570217CF7871F /* RegistrationRouterInput.swift */; };
+		06F2DA9626776E44002212BE /* AddBills.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06F2DA9526776E44002212BE /* AddBills.storyboard */; };
 		06FDCEE6267504BC00E5F579 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FDCEE5267504BC00E5F579 /* AppDelegate.swift */; };
 		06FDCEE8267504BC00E5F579 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FDCEE7267504BC00E5F579 /* SceneDelegate.swift */; };
-		06FDCEEA267504BC00E5F579 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FDCEE9267504BC00E5F579 /* ViewController.swift */; };
-		06FDCEED267504BC00E5F579 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FDCEEB267504BC00E5F579 /* Main.storyboard */; };
 		06FDCEF0267504BC00E5F579 /* FinanceWithoutViper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 06FDCEEE267504BC00E5F579 /* FinanceWithoutViper.xcdatamodeld */; };
 		06FDCEF2267504C000E5F579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06FDCEF1267504C000E5F579 /* Assets.xcassets */; };
 		06FDCEF5267504C000E5F579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FDCEF3267504C000E5F579 /* LaunchScreen.storyboard */; };
+		06FDCF0826750AF300E5F579 /* Registration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FDCF0726750AF300E5F579 /* Registration.storyboard */; };
+		06FDCF0F2675490D00E5F579 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FDCF0E2675490D00E5F579 /* Login.storyboard */; };
+		06FDCF132676179400E5F579 /* FinanceAppMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FDCF122676179400E5F579 /* FinanceAppMain.storyboard */; };
+		06FDCF282676262F00E5F579 /* BillsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FDCF262676262F00E5F579 /* BillsCell.swift */; };
+		06FDCF292676262F00E5F579 /* BillsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06FDCF272676262F00E5F579 /* BillsCell.xib */; };
+		06FDCF2D2676263B00E5F579 /* BillsAddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FDCF2B2676263B00E5F579 /* BillsAddCell.swift */; };
+		06FDCF2E2676263B00E5F579 /* BillsAddCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06FDCF2C2676263B00E5F579 /* BillsAddCell.xib */; };
+		06FDCF322676264A00E5F579 /* TransactionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FDCF302676264A00E5F579 /* TransactionsCell.swift */; };
+		06FDCF332676264A00E5F579 /* TransactionsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06FDCF312676264A00E5F579 /* TransactionsCell.xib */; };
+		06FDCF3A26768F4400E5F579 /* AddTransaction.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FDCF3926768F4400E5F579 /* AddTransaction.storyboard */; };
+		07281923BA17616EFC09851C /* AddBillsInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3797AB8C39CE0B8556AB2D61 /* AddBillsInitializer.swift */; };
+		1137EF780CE93FA84FEC4CD7 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F617EBEDDAF1C469A06A0076 /* LoginPresenter.swift */; };
+		11F482B9C181B7719A186370 /* ProfileConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5696E049B543F27EE6BD4528 /* ProfileConfigurator.swift */; };
+		169B3258F55FED38D4D06F76 /* FinanceAppMainInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BFA53F99C66394B08DD4AC /* FinanceAppMainInteractorOutput.swift */; };
+		178724003B90C32EA95DB323 /* AddBillsModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E49BDAECE5E290B47F2CDA /* AddBillsModuleInput.swift */; };
+		18F859B26589362D2F90DF3E /* RegistrationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367634295B2D4FDC884580C0 /* RegistrationRouter.swift */; };
+		1C04FB08C20724753DDDA90E /* AddTransactionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AC8B11B8E8B910A3763428 /* AddTransactionInteractor.swift */; };
+		22743DEA2088D76BE67DEAFE /* AddTransactionViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9DFD0C139BE1EE2045A2A5 /* AddTransactionViewOutput.swift */; };
+		23FAA14763B554DB3A3A7E34 /* ProfileRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF990C1ADBCF41C3FE9EA77 /* ProfileRouterInput.swift */; };
+		2D38762F96DE2983CA71F8D8 /* ProfileInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555ACBD9D0698E0A42F61382 /* ProfileInitializer.swift */; };
+		2F948E5FAEDCC7C777A301AB /* RegistrationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB1BE93E7BB9863C449E766 /* RegistrationPresenter.swift */; };
+		324EB5C7D9BE5E0D8FFB2235 /* AddBillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7875514465ABFD1B0D7AF /* AddBillsViewController.swift */; };
+		35BC8E8BAE1613F75FBD8B7B /* AddBillsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C753754C83427499A5EC2C2C /* AddBillsInteractor.swift */; };
+		3608A22CD303E3EDF7645990 /* AddBillsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC329986E38FEBB8DDADBA5 /* AddBillsPresenter.swift */; };
+		372DF32DE75098F80D3CA6AE /* FinanceAppMainRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64733D676319D9584E9C5A45 /* FinanceAppMainRouterInput.swift */; };
+		397FF0AF621362AF00683E95 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20479AEF8E3E72D4E3311F0E /* LoginInteractor.swift */; };
+		3B744F81B2FA5063BC52F269 /* AddBillsViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C51729C1D9A418247CE1C63 /* AddBillsViewOutput.swift */; };
+		3C1CB1E97D2E8D781AEBBB99 /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82ED0B7D970EA410F0CAC25 /* ProfilePresenter.swift */; };
+		4011690BFBE06D29D774C15A /* RegistrationInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFED98291B1AAEE3239051D /* RegistrationInteractorInput.swift */; };
+		447543E4A61CC639B9CE1B4D /* RegistrationInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E932FCE92B6460BCB97532 /* RegistrationInteractorOutput.swift */; };
+		46519441FB0E7CC4380645CE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C8B17C44F794AE98568BBB /* LoginViewController.swift */; };
+		47528EFB3707DEC226DB35AB /* RegistrationInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B1E0650CA0C3B7D110E2D2 /* RegistrationInitializer.swift */; };
+		4A1C7F581743F2DA1A7DF42A /* LoginViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C62B9B3D9B27B40FFEE9AD7 /* LoginViewOutput.swift */; };
+		52E5847D24CC30BE00F0093D /* ProfileViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3842BAE07ADF73255CAE4E1B /* ProfileViewInput.swift */; };
+		58BC743786F73E03C3266ACA /* AddBillsViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49BF2A8715F64AFCEE2EA3E /* AddBillsViewInput.swift */; };
+		5B2E1419FCA3A4E26E346258 /* LoginModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E9E151AF5FA83EBE9BE86 /* LoginModuleInput.swift */; };
+		5C9A1CC2C627D8A0CB897F3C /* RegistrationViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D3B8F14F9294AB8CC378E0 /* RegistrationViewOutput.swift */; };
+		60831459C4B48F7D874D6C8C /* AddTransactionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B77C72B76888B04DE515E2 /* AddTransactionRouter.swift */; };
+		61F6763D0E8230BE86C7E0A4 /* AddTransactionInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C3CD230E35691A66914863 /* AddTransactionInitializer.swift */; };
+		6C6633715A1B8C0F83AF3C11 /* LoginInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106B5B36F807AACC83129E6 /* LoginInitializer.swift */; };
+		7035E8414494DB24A4B2B169 /* FinanceAppMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A368BDFFDD91264E8C24AD10 /* FinanceAppMainViewController.swift */; };
+		7536B92A3D2CF26B28BC5A2E /* ProfileViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96685DDB237123D27453435 /* ProfileViewOutput.swift */; };
+		7852D4C1D2CE2CD9FC8E774F /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0DC7E6AA899C7CB8FB70EC /* RegistrationViewController.swift */; };
+		7C498C35A9C4755A79C9304C /* FinanceAppMainModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651578BAF1283A18F93BC2BA /* FinanceAppMainModuleInput.swift */; };
+		80F8A077F53B56FA64B8222D /* ProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FEFBFEED0F48D8ABF1C54F /* ProfileRouter.swift */; };
+		8C597DA10AE8BE4DD07ECFCD /* AddTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07AF28323610C1A6FEA56A4 /* AddTransactionViewController.swift */; };
+		9064AC035E807178D41987F6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76199837022B07CFC4CB011 /* ProfileViewController.swift */; };
+		94C31B203ACA91398BB10BBD /* LoginRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1344C015B5A9A5BCF3692D0 /* LoginRouterInput.swift */; };
+		957AF7F26DD2F9D28133B3C4 /* AddTransactionInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E43C77D6F70F90BA6AF005 /* AddTransactionInteractorOutput.swift */; };
+		9858B5E6A187A486EC778332 /* AddBillsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23297AF2558F4E90CEDA60F8 /* AddBillsConfigurator.swift */; };
+		9E68E19EDDB1A1119FDB64E3 /* AddTransactionRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7F54236E1C0D2F231A1329 /* AddTransactionRouterInput.swift */; };
+		A1B9FC803EEEC4DBA01D7DC4 /* LoginViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050800694971A2D6B24B126A /* LoginViewInput.swift */; };
+		A41BF0DEF63361B462556D28 /* RegistrationModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2CB1A8FF7D5F0368F120F1 /* RegistrationModuleInput.swift */; };
+		A5F40115789D0AEB4ECCB24F /* FinanceAppMainViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC469209AE05EEFFB1A605E8 /* FinanceAppMainViewOutput.swift */; };
+		A89745FDD6F9071C9D546250 /* FinanceAppMainInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D81D2C91ECA0826674C550 /* FinanceAppMainInteractorInput.swift */; };
+		A9B92821BB5F5D3DC04DC3E2 /* FinanceAppMainInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2FAA7E2299F85FA2272446 /* FinanceAppMainInitializer.swift */; };
+		A9DF088DDD89614131D88CA7 /* LoginInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3084478ADADC618A30E80B84 /* LoginInteractorOutput.swift */; };
+		AC207143A1BFD89B3E6E5A69 /* FinanceAppMainViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912F00AB452142AB48062EF7 /* FinanceAppMainViewInput.swift */; };
+		B85EE6E3843C9841FE41BF5D /* AddTransactionInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095168E08C29A1E8447B6E99 /* AddTransactionInteractorInput.swift */; };
+		BE60C0AE5DCDBCDE4895B539 /* FinanceAppMainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBCE6E146CAC0BF398FB927 /* FinanceAppMainInteractor.swift */; };
+		C0910A329D642C783BA6539E /* FinanceAppMainConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4519A32E6E6DB761AB3D8 /* FinanceAppMainConfigurator.swift */; };
+		C1B105B7D9CB38DB22E06635 /* ProfileModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9CD8DD693DA299A75A440A /* ProfileModuleInput.swift */; };
+		C26C23CF7390645AE9B2ABEF /* LoginInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F91A94DD91F481FBC29915C /* LoginInteractorInput.swift */; };
+		C48A66D8395140A115276079 /* AddBillsInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D07A41397C169E75199FE5 /* AddBillsInteractorOutput.swift */; };
+		C54D7F5EFBD8A44DCE05B5A0 /* AddTransactionConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057C018AA559FDDB449F98CB /* AddTransactionConfigurator.swift */; };
+		C606E28B00C44FBB442422BD /* RegistrationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1F798E94FBD0093DC3604E /* RegistrationConfigurator.swift */; };
+		CA243098542A7CFC3951A389 /* ProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83813577BF0EA0DAD0DC215 /* ProfileInteractor.swift */; };
+		D16165AF37955C96CF5C0A72 /* FinanceAppMainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2B85E2FCEEBAB7C4045BE5 /* FinanceAppMainRouter.swift */; };
+		D417FDE5185340DCAAF386E9 /* ProfileInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884949FF1551CF37283F3C2B /* ProfileInteractorOutput.swift */; };
+		D7E206F465E722F6E3CDCE06 /* RegistrationViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8273B6DB313F5C2067FB7042 /* RegistrationViewInput.swift */; };
+		DDD4C16C431C119674B59325 /* AddTransactionViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1D14C26950C2E13D1F237F /* AddTransactionViewInput.swift */; };
+		DEB8A6E98C8158E739D98B6F /* ProfileInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E99608590446F94C53ADD /* ProfileInteractorInput.swift */; };
+		DFBB6F532F9BE698AE7FF4DC /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C320603ADB136360CCE4F6A /* LoginRouter.swift */; };
+		E53D6A91B3C9F3C5140D86A2 /* AddTransactionModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A890256E4A6065F3EF5B02E6 /* AddTransactionModuleInput.swift */; };
+		EA1768D8EB9B1D82DA5BF1E1 /* AddBillsInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AE45C6FC99770BF0C4BA51 /* AddBillsInteractorInput.swift */; };
+		ECF41271EAB88B1A93DADB93 /* FinanceAppMainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308CBF958837431C4B73B09F /* FinanceAppMainPresenter.swift */; };
+		ED419671023058EC2F12425B /* LoginConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E456D9B2B99A431DA005331 /* LoginConfigurator.swift */; };
+		EE24EB6D43056181B046BC55 /* AddBillsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C86F0BAF0F1B09E224D4B78 /* AddBillsRouter.swift */; };
+		F03047D90B5CAB76CA69098C /* AddTransactionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6B23C69820229B44D8D031 /* AddTransactionPresenter.swift */; };
+		FAC280103CE069357A53D760 /* RegistrationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F200895FCA68FF2943B050 /* RegistrationInteractor.swift */; };
+		FE15F792221C0C7BEF4863D3 /* AddBillsRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9E2579456BE299832E9971 /* AddBillsRouterInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02AC8B11B8E8B910A3763428 /* AddTransactionInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTransactionInteractor.swift; sourceTree = "<group>"; };
+		050800694971A2D6B24B126A /* LoginViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginViewInput.swift; sourceTree = "<group>"; };
+		057C018AA559FDDB449F98CB /* AddTransactionConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTransactionConfigurator.swift; sourceTree = "<group>"; };
+		06F2DA9526776E44002212BE /* AddBills.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddBills.storyboard; sourceTree = "<group>"; };
 		06FDCEE2267504BC00E5F579 /* FinanceWithoutViper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceWithoutViper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06FDCEE5267504BC00E5F579 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06FDCEE7267504BC00E5F579 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		06FDCEE9267504BC00E5F579 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		06FDCEEC267504BC00E5F579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06FDCEEF267504BC00E5F579 /* FinanceWithoutViper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FinanceWithoutViper.xcdatamodel; sourceTree = "<group>"; };
 		06FDCEF1267504C000E5F579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06FDCEF4267504C000E5F579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06FDCEF6267504C000E5F579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06FDCF0726750AF300E5F579 /* Registration.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Registration.storyboard; sourceTree = "<group>"; };
+		06FDCF0E2675490D00E5F579 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		06FDCF122676179400E5F579 /* FinanceAppMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FinanceAppMain.storyboard; sourceTree = "<group>"; };
+		06FDCF262676262F00E5F579 /* BillsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillsCell.swift; sourceTree = "<group>"; };
+		06FDCF272676262F00E5F579 /* BillsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BillsCell.xib; sourceTree = "<group>"; };
+		06FDCF2B2676263B00E5F579 /* BillsAddCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillsAddCell.swift; sourceTree = "<group>"; };
+		06FDCF2C2676263B00E5F579 /* BillsAddCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BillsAddCell.xib; sourceTree = "<group>"; };
+		06FDCF302676264A00E5F579 /* TransactionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsCell.swift; sourceTree = "<group>"; };
+		06FDCF312676264A00E5F579 /* TransactionsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionsCell.xib; sourceTree = "<group>"; };
+		06FDCF3926768F4400E5F579 /* AddTransaction.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddTransaction.storyboard; sourceTree = "<group>"; };
+		095168E08C29A1E8447B6E99 /* AddTransactionInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTransactionInteractorInput.swift; sourceTree = "<group>"; };
+		0CB1BE93E7BB9863C449E766 /* RegistrationPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RegistrationPresenter.swift; sourceTree = "<group>"; };
+		148C7E391E3570217CF7871F /* RegistrationRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RegistrationRouterInput.swift; sourceTree = "<group>"; };
+		18E43C77D6F70F90BA6AF005 /* AddTransactionInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTransactionInteractorOutput.swift; sourceTree = "<group>"; };
+		1BC4519A32E6E6DB761AB3D8 /* FinanceAppMainConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FinanceAppMainConfigurator.swift; sourceTree = "<group>"; };
+		1C86F0BAF0F1B09E224D4B78 /* AddBillsRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddBillsRouter.swift; sourceTree = "<group>"; };
+		20479AEF8E3E72D4E3311F0E /* LoginInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		221E9E151AF5FA83EBE9BE86 /* LoginModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginModuleInput.swift; sourceTree = "<group>"; };
+		23297AF2558F4E90CEDA60F8 /* AddBillsConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddBillsConfigurator.swift; sourceTree = "<group>"; };
+		29D81D2C91ECA0826674C550 /* FinanceAppMainInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FinanceAppMainInteractorInput.swift; sourceTree = "<group>"; };
+		2C62B9B3D9B27B40FFEE9AD7 /* LoginViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginViewOutput.swift; sourceTree = "<group>"; };
+		2C9DFD0C139BE1EE2045A2A5 /* AddTransactionViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTransactionViewOutput.swift; sourceTree = "<group>"; };
+		3084478ADADC618A30E80B84 /* LoginInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginInteractorOutput.swift; sourceTree = "<group>"; };
+		308CBF958837431C4B73B09F /* FinanceAppMainPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FinanceAppMainPresenter.swift; sourceTree = "<group>"; };
+		3106B5B36F807AACC83129E6 /* LoginInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginInitializer.swift; sourceTree = "<group>"; };
+		367634295B2D4FDC884580C0 /* RegistrationRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RegistrationRouter.swift; sourceTree = "<group>"; };
+		3797AB8C39CE0B8556AB2D61 /* AddBillsInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddBillsInitializer.swift; sourceTree = "<group>"; };
+		3842BAE07ADF73255CAE4E1B /* ProfileViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProfileViewInput.swift; sourceTree = "<group>"; };
+		47BFA53F99C66394B08DD4AC /* FinanceAppMainInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FinanceAppMainInteractorOutput.swift; sourceTree = "<group>"; };
+		47E932FCE92B6460BCB97532 /* RegistrationInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RegistrationInteractorOutput.swift; sourceTree = "<group>"; };
+		48AE45C6FC99770BF0C4BA51 /* AddBillsInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddBillsInteractorInput.swift; sourceTree = "<group>"; };
+		4B2B85E2FCEEBAB7C4045BE5 /* FinanceAppMainRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FinanceAppMainRouter.swift; sourceTree = "<group>"; };
+		4E456D9B2B99A431DA005331 /* LoginConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginConfigurator.swift; sourceTree = "<group>"; };
+		51B1E0650CA0C3B7D110E2D2 /* RegistrationInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RegistrationInitializer.swift; sourceTree = "<group>"; };
+		555ACBD9D0698E0A42F61382 /* ProfileInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProfileInitializer.swift; sourceTree = "<group>"; };
+		5696E049B543F27EE6BD4528 /* ProfileConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProfileConfigurator.swift; sourceTree = "<group>"; };
+		64733D676319D9584E9C5A45 /* FinanceAppMainRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FinanceAppMainRouterInput.swift; sourceTree = "<group>"; };
+		651578BAF1283A18F93BC2BA /* FinanceAppMainModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FinanceAppMainModuleInput.swift; sourceTree = "<group>"; };
+		6F91A94DD91F481FBC29915C /* LoginInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginInteractorInput.swift; sourceTree = "<group>"; };
+		7C1D14C26950C2E13D1F237F /* AddTransactionViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTransactionViewInput.swift; sourceTree = "<group>"; };
+		7C51729C1D9A418247CE1C63 /* AddBillsViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddBillsViewOutput.swift; sourceTree = "<group>"; };
+		7CF990C1ADBCF41C3FE9EA77 /* ProfileRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProfileRouterInput.swift; sourceTree = "<group>"; };
+		8273B6DB313F5C2067FB7042 /* RegistrationViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RegistrationViewInput.swift; sourceTree = "<group>"; };
+		884949FF1551CF37283F3C2B /* ProfileInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProfileInteractorOutput.swift; sourceTree = "<group>"; };
+		88E49BDAECE5E290B47F2CDA /* AddBillsModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddBillsModuleInput.swift; sourceTree = "<group>"; };
+		8A6E99608590446F94C53ADD /* ProfileInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProfileInteractorInput.swift; sourceTree = "<group>"; };
+		912F00AB452142AB48062EF7 /* FinanceAppMainViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FinanceAppMainViewInput.swift; sourceTree = "<group>"; };
+		99D07A41397C169E75199FE5 /* AddBillsInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddBillsInteractorOutput.swift; sourceTree = "<group>"; };
+		9B6B23C69820229B44D8D031 /* AddTransactionPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTransactionPresenter.swift; sourceTree = "<group>"; };
+		9C320603ADB136360CCE4F6A /* LoginRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		A368BDFFDD91264E8C24AD10 /* FinanceAppMainViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FinanceAppMainViewController.swift; sourceTree = "<group>"; };
+		A76199837022B07CFC4CB011 /* ProfileViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A7C8B17C44F794AE98568BBB /* LoginViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A890256E4A6065F3EF5B02E6 /* AddTransactionModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTransactionModuleInput.swift; sourceTree = "<group>"; };
+		AD9E2579456BE299832E9971 /* AddBillsRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddBillsRouterInput.swift; sourceTree = "<group>"; };
+		B07AF28323610C1A6FEA56A4 /* AddTransactionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTransactionViewController.swift; sourceTree = "<group>"; };
+		BB2FAA7E2299F85FA2272446 /* FinanceAppMainInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FinanceAppMainInitializer.swift; sourceTree = "<group>"; };
+		C4F200895FCA68FF2943B050 /* RegistrationInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RegistrationInteractor.swift; sourceTree = "<group>"; };
+		C753754C83427499A5EC2C2C /* AddBillsInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddBillsInteractor.swift; sourceTree = "<group>"; };
+		C82ED0B7D970EA410F0CAC25 /* ProfilePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
+		CA7F54236E1C0D2F231A1329 /* AddTransactionRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTransactionRouterInput.swift; sourceTree = "<group>"; };
+		CC469209AE05EEFFB1A605E8 /* FinanceAppMainViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FinanceAppMainViewOutput.swift; sourceTree = "<group>"; };
+		CCFED98291B1AAEE3239051D /* RegistrationInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RegistrationInteractorInput.swift; sourceTree = "<group>"; };
+		CE2CB1A8FF7D5F0368F120F1 /* RegistrationModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RegistrationModuleInput.swift; sourceTree = "<group>"; };
+		CFBCE6E146CAC0BF398FB927 /* FinanceAppMainInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FinanceAppMainInteractor.swift; sourceTree = "<group>"; };
+		D6C3CD230E35691A66914863 /* AddTransactionInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTransactionInitializer.swift; sourceTree = "<group>"; };
+		DAE7875514465ABFD1B0D7AF /* AddBillsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddBillsViewController.swift; sourceTree = "<group>"; };
+		DD0DC7E6AA899C7CB8FB70EC /* RegistrationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		DF1F798E94FBD0093DC3604E /* RegistrationConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RegistrationConfigurator.swift; sourceTree = "<group>"; };
+		E0FEFBFEED0F48D8ABF1C54F /* ProfileRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProfileRouter.swift; sourceTree = "<group>"; };
+		E1D3B8F14F9294AB8CC378E0 /* RegistrationViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RegistrationViewOutput.swift; sourceTree = "<group>"; };
+		EF9CD8DD693DA299A75A440A /* ProfileModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProfileModuleInput.swift; sourceTree = "<group>"; };
+		F1344C015B5A9A5BCF3692D0 /* LoginRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginRouterInput.swift; sourceTree = "<group>"; };
+		F2B77C72B76888B04DE515E2 /* AddTransactionRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTransactionRouter.swift; sourceTree = "<group>"; };
+		F49BF2A8715F64AFCEE2EA3E /* AddBillsViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddBillsViewInput.swift; sourceTree = "<group>"; };
+		F617EBEDDAF1C469A06A0076 /* LoginPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		F83813577BF0EA0DAD0DC215 /* ProfileInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProfileInteractor.swift; sourceTree = "<group>"; };
+		F96685DDB237123D27453435 /* ProfileViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProfileViewOutput.swift; sourceTree = "<group>"; };
+		FEC329986E38FEBB8DDADBA5 /* AddBillsPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddBillsPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +220,407 @@
 		06FDCEE4267504BC00E5F579 /* FinanceWithoutViper */ = {
 			isa = PBXGroup;
 			children = (
-				06FDCEE5267504BC00E5F579 /* AppDelegate.swift */,
-				06FDCEE7267504BC00E5F579 /* SceneDelegate.swift */,
-				06FDCEE9267504BC00E5F579 /* ViewController.swift */,
-				06FDCEEB267504BC00E5F579 /* Main.storyboard */,
-				06FDCEF1267504C000E5F579 /* Assets.xcassets */,
-				06FDCEF3267504C000E5F579 /* LaunchScreen.storyboard */,
+				06FDCF0026750A9400E5F579 /* Extra */,
 				06FDCEF6267504C000E5F579 /* Info.plist */,
 				06FDCEEE267504BC00E5F579 /* FinanceWithoutViper.xcdatamodeld */,
+				C4B2D707F9DA08BD0734AFE6 /* Registration */,
+				3D24D58205EB51524231801B /* Login */,
+				5B05057B13CBD6F06E501DCA /* FinanceAppMain */,
+				F011947E9B452F174F3AB7B6 /* AddTransaction */,
+				4121196FC71BB3D41994DD00 /* AddBills */,
+				6D6D3FD1F0014CA09369E252 /* Profile */,
 			);
 			path = FinanceWithoutViper;
+			sourceTree = "<group>";
+		};
+		06FDCF0026750A9400E5F579 /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				06FDCEE5267504BC00E5F579 /* AppDelegate.swift */,
+				06FDCEE7267504BC00E5F579 /* SceneDelegate.swift */,
+				06FDCEF1267504C000E5F579 /* Assets.xcassets */,
+				06FDCEF3267504C000E5F579 /* LaunchScreen.storyboard */,
+			);
+			path = Extra;
+			sourceTree = "<group>";
+		};
+		06FDCF15267625AF00E5F579 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				06FDCF262676262F00E5F579 /* BillsCell.swift */,
+				06FDCF272676262F00E5F579 /* BillsCell.xib */,
+				06FDCF2B2676263B00E5F579 /* BillsAddCell.swift */,
+				06FDCF2C2676263B00E5F579 /* BillsAddCell.xib */,
+				06FDCF302676264A00E5F579 /* TransactionsCell.swift */,
+				06FDCF312676264A00E5F579 /* TransactionsCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		09573D2752C62D47A333BCA2 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F1344C015B5A9A5BCF3692D0 /* LoginRouterInput.swift */,
+				9C320603ADB136360CCE4F6A /* LoginRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		09BF2FB095729AD5A71B4B22 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CA7F54236E1C0D2F231A1329 /* AddTransactionRouterInput.swift */,
+				F2B77C72B76888B04DE515E2 /* AddTransactionRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		09E05FC70B3212A3E62F722C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F49BF2A8715F64AFCEE2EA3E /* AddBillsViewInput.swift */,
+				7C51729C1D9A418247CE1C63 /* AddBillsViewOutput.swift */,
+				DAE7875514465ABFD1B0D7AF /* AddBillsViewController.swift */,
+				06F2DA9526776E44002212BE /* AddBills.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0AF66132E159F9B02DC1D55E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				651578BAF1283A18F93BC2BA /* FinanceAppMainModuleInput.swift */,
+				308CBF958837431C4B73B09F /* FinanceAppMainPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		0E6C2FF98EA4425CCA80CDD1 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6F91A94DD91F481FBC29915C /* LoginInteractorInput.swift */,
+				3084478ADADC618A30E80B84 /* LoginInteractorOutput.swift */,
+				20479AEF8E3E72D4E3311F0E /* LoginInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1C282560AF6DD30C13C891DE /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EF9CD8DD693DA299A75A440A /* ProfileModuleInput.swift */,
+				C82ED0B7D970EA410F0CAC25 /* ProfilePresenter.swift */,
+			);
+			name = Presenter;
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		222E3CBC35CCBD335762134C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B07AF28323610C1A6FEA56A4 /* AddTransactionViewController.swift */,
+				7C1D14C26950C2E13D1F237F /* AddTransactionViewInput.swift */,
+				2C9DFD0C139BE1EE2045A2A5 /* AddTransactionViewOutput.swift */,
+				06FDCF3926768F4400E5F579 /* AddTransaction.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		23E3A8509F07B37CB7A920B7 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				148C7E391E3570217CF7871F /* RegistrationRouterInput.swift */,
+				367634295B2D4FDC884580C0 /* RegistrationRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		281F1BFB82F3AF29FCBDA232 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4519A32E6E6DB761AB3D8 /* FinanceAppMainConfigurator.swift */,
+				BB2FAA7E2299F85FA2272446 /* FinanceAppMainInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		30CBF597988B4DB5B8E6CA20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				050800694971A2D6B24B126A /* LoginViewInput.swift */,
+				2C62B9B3D9B27B40FFEE9AD7 /* LoginViewOutput.swift */,
+				A7C8B17C44F794AE98568BBB /* LoginViewController.swift */,
+				06FDCF0E2675490D00E5F579 /* Login.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D24D58205EB51524231801B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BB6B500514A08FDC52A77926 /* Configurator */,
+				7564DE49A9F95FE8A1E7CD19 /* Presenter */,
+				0E6C2FF98EA4425CCA80CDD1 /* Interactor */,
+				09573D2752C62D47A333BCA2 /* Router */,
+				30CBF597988B4DB5B8E6CA20 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4121196FC71BB3D41994DD00 /* AddBills */ = {
+			isa = PBXGroup;
+			children = (
+				7742040E0058F68FF7ED6BA6 /* Configurator */,
+				A83CD7164317CE80123DD4C8 /* Presenter */,
+				E81DC122A521D9BEA69A11B0 /* Interactor */,
+				C931ECA6B8BD9CC9641CA72C /* Router */,
+				09E05FC70B3212A3E62F722C /* View */,
+			);
+			path = AddBills;
+			sourceTree = "<group>";
+		};
+		56FF7105E134B39D1514E1E8 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				057C018AA559FDDB449F98CB /* AddTransactionConfigurator.swift */,
+				D6C3CD230E35691A66914863 /* AddTransactionInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		58EF8DBB2F313A1B879E595E /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				8A6E99608590446F94C53ADD /* ProfileInteractorInput.swift */,
+				884949FF1551CF37283F3C2B /* ProfileInteractorOutput.swift */,
+				F83813577BF0EA0DAD0DC215 /* ProfileInteractor.swift */,
+			);
+			name = Interactor;
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		5B05057B13CBD6F06E501DCA /* FinanceAppMain */ = {
+			isa = PBXGroup;
+			children = (
+				281F1BFB82F3AF29FCBDA232 /* Configurator */,
+				0AF66132E159F9B02DC1D55E /* Presenter */,
+				8561DC55E5B5DB09E9474F45 /* Interactor */,
+				D78292A0923421FA4AAC8C0F /* Router */,
+				8ED750B79DD58708763895AA /* View */,
+			);
+			path = FinanceAppMain;
+			sourceTree = "<group>";
+		};
+		6D6D3FD1F0014CA09369E252 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B3ADA234FE93443951C3A417 /* View */,
+				1C282560AF6DD30C13C891DE /* Presenter */,
+				58EF8DBB2F313A1B879E595E /* Interactor */,
+				EAE0031B033B3336A6F2408B /* Router */,
+				F38BF58E52A94AE7A9A2A49E /* Configurator */,
+			);
+			name = Profile;
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		6DE197673DB45D7D9099DAE7 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CCFED98291B1AAEE3239051D /* RegistrationInteractorInput.swift */,
+				47E932FCE92B6460BCB97532 /* RegistrationInteractorOutput.swift */,
+				C4F200895FCA68FF2943B050 /* RegistrationInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		7564DE49A9F95FE8A1E7CD19 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				221E9E151AF5FA83EBE9BE86 /* LoginModuleInput.swift */,
+				F617EBEDDAF1C469A06A0076 /* LoginPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7742040E0058F68FF7ED6BA6 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				23297AF2558F4E90CEDA60F8 /* AddBillsConfigurator.swift */,
+				3797AB8C39CE0B8556AB2D61 /* AddBillsInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		8561DC55E5B5DB09E9474F45 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				29D81D2C91ECA0826674C550 /* FinanceAppMainInteractorInput.swift */,
+				47BFA53F99C66394B08DD4AC /* FinanceAppMainInteractorOutput.swift */,
+				CFBCE6E146CAC0BF398FB927 /* FinanceAppMainInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		8ED750B79DD58708763895AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				06FDCF15267625AF00E5F579 /* Cells */,
+				A368BDFFDD91264E8C24AD10 /* FinanceAppMainViewController.swift */,
+				912F00AB452142AB48062EF7 /* FinanceAppMainViewInput.swift */,
+				CC469209AE05EEFFB1A605E8 /* FinanceAppMainViewOutput.swift */,
+				06FDCF122676179400E5F579 /* FinanceAppMain.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1ACA0F9D6271D501220ECBA /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A890256E4A6065F3EF5B02E6 /* AddTransactionModuleInput.swift */,
+				9B6B23C69820229B44D8D031 /* AddTransactionPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A83CD7164317CE80123DD4C8 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				88E49BDAECE5E290B47F2CDA /* AddBillsModuleInput.swift */,
+				FEC329986E38FEBB8DDADBA5 /* AddBillsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B3ADA234FE93443951C3A417 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3842BAE07ADF73255CAE4E1B /* ProfileViewInput.swift */,
+				F96685DDB237123D27453435 /* ProfileViewOutput.swift */,
+				A76199837022B07CFC4CB011 /* ProfileViewController.swift */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB6B500514A08FDC52A77926 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				4E456D9B2B99A431DA005331 /* LoginConfigurator.swift */,
+				3106B5B36F807AACC83129E6 /* LoginInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		C4B2D707F9DA08BD0734AFE6 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				DBF325C6FAA259FE19968211 /* Configurator */,
+				FC963267B5BB9BA2EA66FB8C /* Presenter */,
+				6DE197673DB45D7D9099DAE7 /* Interactor */,
+				23E3A8509F07B37CB7A920B7 /* Router */,
+				DA77BB73841C1FF4A456030F /* View */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		C931ECA6B8BD9CC9641CA72C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				AD9E2579456BE299832E9971 /* AddBillsRouterInput.swift */,
+				1C86F0BAF0F1B09E224D4B78 /* AddBillsRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		D78292A0923421FA4AAC8C0F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				64733D676319D9584E9C5A45 /* FinanceAppMainRouterInput.swift */,
+				4B2B85E2FCEEBAB7C4045BE5 /* FinanceAppMainRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		DA77BB73841C1FF4A456030F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD0DC7E6AA899C7CB8FB70EC /* RegistrationViewController.swift */,
+				8273B6DB313F5C2067FB7042 /* RegistrationViewInput.swift */,
+				E1D3B8F14F9294AB8CC378E0 /* RegistrationViewOutput.swift */,
+				06FDCF0726750AF300E5F579 /* Registration.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DBF325C6FAA259FE19968211 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				DF1F798E94FBD0093DC3604E /* RegistrationConfigurator.swift */,
+				51B1E0650CA0C3B7D110E2D2 /* RegistrationInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		DD640DE46A1ADFF5C10D8D61 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				095168E08C29A1E8447B6E99 /* AddTransactionInteractorInput.swift */,
+				18E43C77D6F70F90BA6AF005 /* AddTransactionInteractorOutput.swift */,
+				02AC8B11B8E8B910A3763428 /* AddTransactionInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E81DC122A521D9BEA69A11B0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				48AE45C6FC99770BF0C4BA51 /* AddBillsInteractorInput.swift */,
+				99D07A41397C169E75199FE5 /* AddBillsInteractorOutput.swift */,
+				C753754C83427499A5EC2C2C /* AddBillsInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		EAE0031B033B3336A6F2408B /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				7CF990C1ADBCF41C3FE9EA77 /* ProfileRouterInput.swift */,
+				E0FEFBFEED0F48D8ABF1C54F /* ProfileRouter.swift */,
+			);
+			name = Router;
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F011947E9B452F174F3AB7B6 /* AddTransaction */ = {
+			isa = PBXGroup;
+			children = (
+				56FF7105E134B39D1514E1E8 /* Configurator */,
+				A1ACA0F9D6271D501220ECBA /* Presenter */,
+				DD640DE46A1ADFF5C10D8D61 /* Interactor */,
+				09BF2FB095729AD5A71B4B22 /* Router */,
+				222E3CBC35CCBD335762134C /* View */,
+			);
+			path = AddTransaction;
+			sourceTree = "<group>";
+		};
+		F38BF58E52A94AE7A9A2A49E /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				5696E049B543F27EE6BD4528 /* ProfileConfigurator.swift */,
+				555ACBD9D0698E0A42F61382 /* ProfileInitializer.swift */,
+			);
+			name = Configurator;
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		FC963267B5BB9BA2EA66FB8C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CE2CB1A8FF7D5F0368F120F1 /* RegistrationModuleInput.swift */,
+				0CB1BE93E7BB9863C449E766 /* RegistrationPresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,9 +680,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06FDCF0F2675490D00E5F579 /* Login.storyboard in Resources */,
+				06F2DA9626776E44002212BE /* AddBills.storyboard in Resources */,
 				06FDCEF5267504C000E5F579 /* LaunchScreen.storyboard in Resources */,
+				06FDCF292676262F00E5F579 /* BillsCell.xib in Resources */,
+				06FDCF132676179400E5F579 /* FinanceAppMain.storyboard in Resources */,
+				06FDCF2E2676263B00E5F579 /* BillsAddCell.xib in Resources */,
+				06FDCF0826750AF300E5F579 /* Registration.storyboard in Resources */,
+				06FDCF3A26768F4400E5F579 /* AddTransaction.storyboard in Resources */,
+				06FDCF332676264A00E5F579 /* TransactionsCell.xib in Resources */,
 				06FDCEF2267504C000E5F579 /* Assets.xcassets in Resources */,
-				06FDCEED267504BC00E5F579 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,23 +701,89 @@
 			buildActionMask = 2147483647;
 			files = (
 				06FDCEF0267504BC00E5F579 /* FinanceWithoutViper.xcdatamodeld in Sources */,
-				06FDCEEA267504BC00E5F579 /* ViewController.swift in Sources */,
 				06FDCEE6267504BC00E5F579 /* AppDelegate.swift in Sources */,
 				06FDCEE8267504BC00E5F579 /* SceneDelegate.swift in Sources */,
+				AC207143A1BFD89B3E6E5A69 /* FinanceAppMainViewInput.swift in Sources */,
+				A5F40115789D0AEB4ECCB24F /* FinanceAppMainViewOutput.swift in Sources */,
+				7035E8414494DB24A4B2B169 /* FinanceAppMainViewController.swift in Sources */,
+				7C498C35A9C4755A79C9304C /* FinanceAppMainModuleInput.swift in Sources */,
+				ECF41271EAB88B1A93DADB93 /* FinanceAppMainPresenter.swift in Sources */,
+				06FDCF2D2676263B00E5F579 /* BillsAddCell.swift in Sources */,
+				A89745FDD6F9071C9D546250 /* FinanceAppMainInteractorInput.swift in Sources */,
+				169B3258F55FED38D4D06F76 /* FinanceAppMainInteractorOutput.swift in Sources */,
+				BE60C0AE5DCDBCDE4895B539 /* FinanceAppMainInteractor.swift in Sources */,
+				372DF32DE75098F80D3CA6AE /* FinanceAppMainRouterInput.swift in Sources */,
+				D16165AF37955C96CF5C0A72 /* FinanceAppMainRouter.swift in Sources */,
+				C0910A329D642C783BA6539E /* FinanceAppMainConfigurator.swift in Sources */,
+				A9B92821BB5F5D3DC04DC3E2 /* FinanceAppMainInitializer.swift in Sources */,
+				D7E206F465E722F6E3CDCE06 /* RegistrationViewInput.swift in Sources */,
+				5C9A1CC2C627D8A0CB897F3C /* RegistrationViewOutput.swift in Sources */,
+				7852D4C1D2CE2CD9FC8E774F /* RegistrationViewController.swift in Sources */,
+				A41BF0DEF63361B462556D28 /* RegistrationModuleInput.swift in Sources */,
+				2F948E5FAEDCC7C777A301AB /* RegistrationPresenter.swift in Sources */,
+				4011690BFBE06D29D774C15A /* RegistrationInteractorInput.swift in Sources */,
+				447543E4A61CC639B9CE1B4D /* RegistrationInteractorOutput.swift in Sources */,
+				FAC280103CE069357A53D760 /* RegistrationInteractor.swift in Sources */,
+				068BFA83DC159CE108D74D7B /* RegistrationRouterInput.swift in Sources */,
+				18F859B26589362D2F90DF3E /* RegistrationRouter.swift in Sources */,
+				06FDCF322676264A00E5F579 /* TransactionsCell.swift in Sources */,
+				C606E28B00C44FBB442422BD /* RegistrationConfigurator.swift in Sources */,
+				47528EFB3707DEC226DB35AB /* RegistrationInitializer.swift in Sources */,
+				A1B9FC803EEEC4DBA01D7DC4 /* LoginViewInput.swift in Sources */,
+				4A1C7F581743F2DA1A7DF42A /* LoginViewOutput.swift in Sources */,
+				46519441FB0E7CC4380645CE /* LoginViewController.swift in Sources */,
+				5B2E1419FCA3A4E26E346258 /* LoginModuleInput.swift in Sources */,
+				1137EF780CE93FA84FEC4CD7 /* LoginPresenter.swift in Sources */,
+				06FDCF282676262F00E5F579 /* BillsCell.swift in Sources */,
+				C26C23CF7390645AE9B2ABEF /* LoginInteractorInput.swift in Sources */,
+				A9DF088DDD89614131D88CA7 /* LoginInteractorOutput.swift in Sources */,
+				397FF0AF621362AF00683E95 /* LoginInteractor.swift in Sources */,
+				94C31B203ACA91398BB10BBD /* LoginRouterInput.swift in Sources */,
+				DFBB6F532F9BE698AE7FF4DC /* LoginRouter.swift in Sources */,
+				ED419671023058EC2F12425B /* LoginConfigurator.swift in Sources */,
+				6C6633715A1B8C0F83AF3C11 /* LoginInitializer.swift in Sources */,
+				DDD4C16C431C119674B59325 /* AddTransactionViewInput.swift in Sources */,
+				22743DEA2088D76BE67DEAFE /* AddTransactionViewOutput.swift in Sources */,
+				8C597DA10AE8BE4DD07ECFCD /* AddTransactionViewController.swift in Sources */,
+				E53D6A91B3C9F3C5140D86A2 /* AddTransactionModuleInput.swift in Sources */,
+				F03047D90B5CAB76CA69098C /* AddTransactionPresenter.swift in Sources */,
+				B85EE6E3843C9841FE41BF5D /* AddTransactionInteractorInput.swift in Sources */,
+				957AF7F26DD2F9D28133B3C4 /* AddTransactionInteractorOutput.swift in Sources */,
+				1C04FB08C20724753DDDA90E /* AddTransactionInteractor.swift in Sources */,
+				9E68E19EDDB1A1119FDB64E3 /* AddTransactionRouterInput.swift in Sources */,
+				60831459C4B48F7D874D6C8C /* AddTransactionRouter.swift in Sources */,
+				C54D7F5EFBD8A44DCE05B5A0 /* AddTransactionConfigurator.swift in Sources */,
+				61F6763D0E8230BE86C7E0A4 /* AddTransactionInitializer.swift in Sources */,
+				58BC743786F73E03C3266ACA /* AddBillsViewInput.swift in Sources */,
+				3B744F81B2FA5063BC52F269 /* AddBillsViewOutput.swift in Sources */,
+				324EB5C7D9BE5E0D8FFB2235 /* AddBillsViewController.swift in Sources */,
+				178724003B90C32EA95DB323 /* AddBillsModuleInput.swift in Sources */,
+				3608A22CD303E3EDF7645990 /* AddBillsPresenter.swift in Sources */,
+				EA1768D8EB9B1D82DA5BF1E1 /* AddBillsInteractorInput.swift in Sources */,
+				C48A66D8395140A115276079 /* AddBillsInteractorOutput.swift in Sources */,
+				35BC8E8BAE1613F75FBD8B7B /* AddBillsInteractor.swift in Sources */,
+				FE15F792221C0C7BEF4863D3 /* AddBillsRouterInput.swift in Sources */,
+				EE24EB6D43056181B046BC55 /* AddBillsRouter.swift in Sources */,
+				9858B5E6A187A486EC778332 /* AddBillsConfigurator.swift in Sources */,
+				07281923BA17616EFC09851C /* AddBillsInitializer.swift in Sources */,
+				52E5847D24CC30BE00F0093D /* ProfileViewInput.swift in Sources */,
+				7536B92A3D2CF26B28BC5A2E /* ProfileViewOutput.swift in Sources */,
+				9064AC035E807178D41987F6 /* ProfileViewController.swift in Sources */,
+				C1B105B7D9CB38DB22E06635 /* ProfileModuleInput.swift in Sources */,
+				3C1CB1E97D2E8D781AEBBB99 /* ProfilePresenter.swift in Sources */,
+				DEB8A6E98C8158E739D98B6F /* ProfileInteractorInput.swift in Sources */,
+				D417FDE5185340DCAAF386E9 /* ProfileInteractorOutput.swift in Sources */,
+				CA243098542A7CFC3951A389 /* ProfileInteractor.swift in Sources */,
+				23FAA14763B554DB3A3A7E34 /* ProfileRouterInput.swift in Sources */,
+				80F8A077F53B56FA64B8222D /* ProfileRouter.swift in Sources */,
+				11F482B9C181B7719A186370 /* ProfileConfigurator.swift in Sources */,
+				2D38762F96DE2983CA71F8D8 /* ProfileInitializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		06FDCEEB267504BC00E5F579 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				06FDCEEC267504BC00E5F579 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		06FDCEF3267504C000E5F579 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -300,7 +926,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = yerkebulanice.FinanceWithoutViper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,7 +945,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = yerkebulanice.FinanceWithoutViper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

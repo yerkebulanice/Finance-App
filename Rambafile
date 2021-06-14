@@ -1,0 +1,26 @@
+### Headers settings
+company: ios developer
+
+### Xcode project settings
+project_name: FinanceWithoutViper
+xcodeproj_path: FinanceWithoutViper.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: FinanceWithoutViper
+
+project_file_path: FinanceWithoutViper
+
+project_group_path: FinanceWithoutViper
+
+### Dependencies settings section
+podfile_path: 
+
+### Catalogs
+catalogs:
+- 'https://github.com/surfstudio/generamba-templates'
+
+### Templates
+templates:
+- {name: swifty_viper}
+
